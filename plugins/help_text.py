@@ -26,7 +26,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 
-@Clinton.on_message(filters.private & filters.command(["help"]))
+@Clinton.on_message(filters.private & filters.command(["helpz"]))
 async def help_user(bot, update):
     await AddUser(bot, update)
     await bot.send_message(

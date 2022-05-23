@@ -10,8 +10,8 @@ URL | filename | username | password"""
     DOWNLOAD_START = "📥Downloading..."
     UPLOAD_START = "📤Uploading..."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Thanks for using me \n\n<b>Join @TMWAD For More UsefUl Bots Like Me </b>"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds.\n\n@TMWAD"
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Thanks for using me \n\n<b>Join @ccgnimex_bot For More UsefUl Bots Like Me </b>"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds.\n\n@ccgnimex_bot"
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     CUSTOM_CAPTION_UL_FILE = "{}"
@@ -20,22 +20,22 @@ URL | filename | username | password"""
     
    ☞My Name  : All Url Uploader Bot
 
-   ☞Updates  : @TMWAD    
+   ☞Updates  : @ccgnimex_bot    
 
    ☞Language : Python3
 
    ☞Library  : <a href="https://docs.pyrogram.org/">Pyrogram 1.0.7</a>"""
     HELP_USER = """Please Follow These steps!
     
-1. Send url (example.domain/File.mp4 | New Filename.mp4).
-2. Send Image As Custom Thumbnail (Optional).
-3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File (video) as file with Screenshots
-   Video  - Give File as video without Screenshots
-   File   - Give File without Screenshots
+1. Kirim url (example.domain/File.mp4 | New Filename.mp4).
+2. Kirim Gambar Sebagai Gambar Kecil Khusus (Opsional).
+3. Pilih tombol.
+    SVideo - Berikan File sebagai video dengan Tangkapan Layar
+    DFile - Berikan File (video) sebagai file dengan Tangkapan Layar
+    Video - Berikan File sebagai video tanpa Tangkapan Layar
+    File - Berikan File tanpa Tangkapan Layar
 
-If bot didn't respond, Ask Here @TMWAD"""
+If bot didn't respond, Ask Here @ccgnimex_bot"""
     REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Reply /generatecustomthumbnail to a media album, to generate custom thumbail"
     ERR_ONLY_TWO_MEDIA_IN_ALBUM = """Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
 You can use /rename command after receiving file to rename it with custom thumbnail support.
