@@ -7,7 +7,7 @@ Pillow
 pyrogram==1.4.16
 requests
 tgcrypto
-#yt-dlp
+yt-dlp
 olefile
 filetype
 tldextract
