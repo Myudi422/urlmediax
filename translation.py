@@ -41,5 +41,5 @@ If bot didn't respond, Ask Here @ccgnimex_bot"""
 You can use /rename command after receiving file to rename it with custom thumbnail support.
 """
     CANCEL_STR = "Proses Dibatalkan"
-    ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds"
+    ZIP_UPLOADED_STR = "Diunggah {} file dalam {} detik"
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
