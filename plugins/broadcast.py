@@ -32,7 +32,7 @@ async def send_msg(user_id, message):
         return 500, f"{user_id} : {traceback.format_exc()}\n"
         
 
-@Clinton.on_message(filters.private & filters.command('broadcast') & filters.reply)
+@Clinton.on_message(filters.private & filters.command('pengumumanurl') & filters.reply)
 async def broadcast_(c, m):
     if m.from_user.id != Config.OWNER_ID:
         return

@@ -38,7 +38,7 @@ async def help_user(bot, update):
     )
 
 
-@Clinton.on_message(filters.private & filters.command(["start"]))
+@Clinton.on_message(filters.private & filters.command(["startssss"]))
 async def start(bot, message):
   await bot.send_message(
     chat_id=message.chat.id,

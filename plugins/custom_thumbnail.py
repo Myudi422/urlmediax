@@ -29,7 +29,7 @@ from pyrogram import filters
 from database.adduser import AddUser
 from helper_funcs.help_Nekmo_ffmpeg import take_screen_shot
 
-@Clinton.on_message(filters.private & filters.photo)
+@Clinton.on_message(filters.private & filters.command("thumbnail"))
 async def save_photo(bot, update):
     await AddUser(bot, update)
     await clinton.set_thumbnail(update.from_user.id, thumbnail=update.photo.file_id)
